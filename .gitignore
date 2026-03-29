@@ -1,0 +1,16 @@
+a/_pycache_/
+a/depth.npz
+a/scans.pcd
+a/odometry.txt
+b/events_data.npz
+b/events_tensor.npz
+b/odometry.txt
+b/static.bag
+c/dataset/
+c/depth.npz
+c/events_tensor.npz
+d/dataset/
+d/Background_screenshot_29.03.2026.png
+d/output_video.mp4
+d/rectify.py.bak
+d/single_calib_result.txt.bak
