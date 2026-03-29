@@ -1,4 +1,4 @@
-a/_pycache_/
+a/__pycache__/
 a/depth.npz
 a/scans.pcd
 a/odometry.txt
@@ -9,7 +9,7 @@ b/static.bag
 c/dataset/
 c/depth.npz
 c/events_tensor.npz
-d/dataset/
+# d/dataset/
 d/Background_screenshot_29.03.2026.png
 d/output_video.mp4
 d/rectify.py.bak
