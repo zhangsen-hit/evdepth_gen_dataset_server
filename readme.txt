@@ -14,6 +14,7 @@
 	
 步骤c：	根据一一对应的深度图与事件帧，构建数据集
 	python build_depth_dataset.py
+	python depth_dilation --inplace   (平均值滤波增密下方深度值)
 
 步骤d：	可视化与检查数据集
 	python fetch_depth.py  (52行调整所选深度图)

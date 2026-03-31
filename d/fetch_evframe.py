@@ -15,8 +15,8 @@ def save_overlay(overlay, output, title=None, legend=None):
 def main():
     parser = argparse.ArgumentParser(description='按频率累加NPZ文件像素值')
     parser.add_argument('--dir', default='./dataset', help='数据目录')
-    parser.add_argument('--start', type=int, default=2000, help='起始编号')
-    parser.add_argument('--end', type=int, default=2000, help='结束编号')
+    parser.add_argument('--start', type=int, default=1980, help='起始编号')
+    parser.add_argument('--end', type=int, default=2020, help='结束编号')
     parser.add_argument('--output', default='event_tensor_noted.png', help='输出文件（带注解）')
     args = parser.parse_args()
     

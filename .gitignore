@@ -9,7 +9,8 @@ b/static.bag
 c/dataset/
 c/depth.npz
 c/events_tensor.npz
-# d/dataset/
+c/__pycache__/
+d/dataset/
 d/Background_screenshot_29.03.2026.png
 d/output_video.mp4
 d/rectify.py.bak

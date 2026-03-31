@@ -61,8 +61,8 @@ class EventOdomProcessor:
         self.output_width = 346   # 输出宽度保持不变
         
         # 时间窗口设置 (5ms = 0.005秒)
-        self.window_half = 0.050  # 2.5ms
-        self.window_size = 0.100   # 5ms
+        self.window_half = 0.0025  # 2.5ms
+        self.window_size = 0.005   # 5ms
         
         # 验证时间戳范围
         self._validate_timestamps()
